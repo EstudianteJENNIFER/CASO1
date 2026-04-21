@@ -58,28 +58,19 @@ app.get('/', (req, res) => {
                 font-weight: bold;
                 color: #555;
             }
-
-            .status {
-                padding: 5px 10px;
-                border-radius: 10px;
-                display: inline-block;
-                background: #d4edda;
-                color: #155724;
-                font-size: 14px;
-            }
         </style>
     </head>
     <body>
 
         <div class="card">
             <h1>Sistema de Registro de Estudiantes</h1>
-            <p style="color: green;">✔Funcionando Correctamente</p>
+            <p style="color: green;">Funcionando Correctamente</p>
 
             <div class="info">
                 <p><span class="label">Nombre:</span> ${estudiante.nombre}</p>
                 <p><span class="label">Curso:</span> ${estudiante.curso}</p>
                 <p><span class="label">Estado:</span> 
-                    <span class="status">${estudiante.estado}</span>
+                    <span style="color: green;">${estudiante.estado}</span>
                 </p>
             </div>
         </div>
