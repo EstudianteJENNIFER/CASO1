@@ -64,13 +64,13 @@ app.get('/', (req, res) => {
 
         <div class="card">
             <h1>Sistema de Registro de Estudiantes</h1>
-            <p style="color: green;">Funcionando Correctamente</p>
+            <p style="color: purple;">Funcionando Correctamente</p>
 
             <div class="info">
                 <p><span class="label">Nombre:</span> ${estudiante.nombre}</p>
                 <p><span class="label">Curso:</span> ${estudiante.curso}</p>
                 <p><span class="label">Estado:</span> 
-                    <span style="color: green;">${estudiante.estado}</span>
+                    <span style="color: purple;">${estudiante.estado}</span>
                 </p>
             </div>
         </div>
